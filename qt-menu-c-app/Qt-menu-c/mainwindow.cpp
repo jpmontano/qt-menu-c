@@ -5,6 +5,8 @@ MainWindow::MainWindow( QWidget *parent ) : QMainWindow( parent )
     myMenuBar = new QMenuBar( this );
     //setGeometry( 0, 0, 900, 600 );
     resize( 900, 600 );
+    setWindowTitle( tr("The window title goes here") );
+
 
     showMenuBar();
 
