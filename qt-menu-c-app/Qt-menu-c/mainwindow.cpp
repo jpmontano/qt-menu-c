@@ -7,9 +7,7 @@ MainWindow::MainWindow( QWidget *parent ) : QMainWindow( parent )
     resize( 900, 600 );
     setWindowTitle( tr("The window title goes here") );
 
-
     showMenuBar();
-
 }
 
 void MainWindow::showMenuBar()
